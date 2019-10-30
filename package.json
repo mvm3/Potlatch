@@ -1,0 +1,22 @@
+{
+  "name": "potlatch",
+  "version": "1.0.0",
+  "description": "mvp para plataforma potlatch",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvm3/Potlatch.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvm3/Potlatch/issues"
+  },
+  "homepage": "https://github.com/mvm3/Potlatch#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
