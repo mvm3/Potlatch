@@ -2,9 +2,11 @@
 {
     "user": {
         "comment1": "o id armazenado é o mesmo id do objeto (cpf do usuário? conta do instagram?)",
+        "comment3": "profilePhotoId indica qual foto vai ser buscada para renderizar o perfil da pessoa",
         "id": "string",
         "name": "string",
         "ranking": "map",
+        "profilePhotoId": "string",
         "address":{
             "street": "string",
             "number": "number",
@@ -15,15 +17,25 @@
                 "x": "number",
                 "y": "number"
             }            
-        }
+        },
+        "media": [
+            {
+                "id": "string",
+                "type": "foto/video", 
+                "path": "/media/${project.id}/id",
+                "insertedAt": "TIMESTAMP"
+            }
+        ]
     },
 
     "project": {
         "comment1": "o id armazenado é o mesmo id do objeto (cpf do proprietário talvez)",
         "comment2": "subject eh a area de atuacao do projeto",
+        "comment3": "profilePhotoId indica qual foto vai ser buscada para renderizar o perfil da pessoa",
         "id": "string",
         "name": "string",
         "subject": "string", 
+        "profilePhotoId": "string",
         "address":{
             "street": "string",
             "number": "number",
@@ -40,13 +52,27 @@
             "number": "string", 
             "name": "string", 
             "cpfCnpj": "string" 
-        }
+        }, 
+        "media": [
+            {
+                "id": "string",
+                "type": "foto/video", 
+                "path": "/media/${project.id}/id",
+                "insertedAt": "TIMESTAMP"
+            },
+            {
+                "id": "string",
+                "type": "foto/video", 
+                "path": "/media/${project.id}/id",
+                "insertedAt": "TIMESTAMP"
+            }
+        ]
     },
-
     "donations": {
         "id":{
             "comment1": "o id armazenado é o mesmo id do objeto que deve ser gerado no momento da doaçao",
             "comment2": "o metodo de pagamento (boleto cartao)" ,
+            "id": "string",
             "value": "number",
             "user": "string",
             "project": "string",
