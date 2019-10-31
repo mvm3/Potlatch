@@ -1,0 +1,56 @@
+[
+{
+    "user": {
+        "comment1": "o id armazenado é o mesmo id do objeto (cpf do usuário? conta do instagram?)",
+        "id": "string",
+        "name": "string",
+        "ranking": "map",
+        "address":{
+            "street": "string",
+            "number": "number",
+            "city": "string",
+            "state": "string", 
+            "complement": "string", 
+            "cordinates": {
+                "x": "number",
+                "y": "number"
+            }            
+        }
+    },
+
+    "project": {
+        "comment1": "o id armazenado é o mesmo id do objeto (cpf do proprietário talvez)",
+        "comment2": "subject eh a area de atuacao do projeto",
+        "id": "string",
+        "name": "string",
+        "subject": "string", 
+        "address":{
+            "street": "string",
+            "number": "number",
+            "city": "string",
+            "state": "string", 
+            "complement": "string", 
+            "cordinates": {
+                "x": "number",
+                "y": "number"
+            }            
+        },
+        "bankData": {
+            "cc": "string", 
+            "number": "string", 
+            "name": "string", 
+            "cpfCnpj": "string" 
+        }
+    },
+
+    "donations": {
+        "id":{
+            "comment1": "o id armazenado é o mesmo id do objeto que deve ser gerado no momento da doaçao",
+            "comment2": "o metodo de pagamento (boleto cartao)" ,
+            "value": "number",
+            "user": "string",
+            "project": "string",
+            "method": "string"
+        }
+    }
+}]
