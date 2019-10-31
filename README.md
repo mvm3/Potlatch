@@ -42,6 +42,6 @@ npm install
 # server hospedado na porta localhost:8080
 npm run serve
 ```
-7. Start to code it!
+Start to code it!
 
 
