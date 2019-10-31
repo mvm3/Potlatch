@@ -57,4 +57,5 @@ npm run serve
 ```
 Start to code it!
 
+P.S: Caso esteja ocorrendo erro ao iniciar servidor tente executar usando o comando sudo na frente
 
