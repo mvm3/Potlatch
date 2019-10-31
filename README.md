@@ -9,7 +9,7 @@ Este repositório é do desenvolvimento front-end do projeto Potlatch da discipl
 
 ### Tecnologias Utilizadas
 
->O code está utiliza dos frameworks Vue.js e BootstrapVue. 
+>O code está utilizando dos frameworks Vue.js e BootstrapVue. 
 
 E para rodar o projeto você precisa instalar:
 
