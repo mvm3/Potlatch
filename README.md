@@ -37,7 +37,8 @@ para que as modificações seja feitas neste branch (dev) e não no master (prin
 # instalando as dependências
 npm install
 ```
-6. Execute o comando 
+
+5. Execute o comando 
 ``` bash
 # server hospedado na porta localhost:8080
 npm run serve
