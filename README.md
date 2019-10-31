@@ -57,4 +57,6 @@ npm run serve
 ```
 Start to code it!
 
+PS: Para quem gosta de usar o VSCode existe uma extensão bastante útil que pode ser utilizada: a Vue VS Code Extesion Pack.
+
 
