@@ -23,7 +23,7 @@ Um passo a passo...
 ``` bash
 git clone 
 ``` 
-2. Vá para a pasta do projeto;
+2. Vá para a pasta do projeto, e entre na pasta principal da aplicição, a pasta app.
 3. Execute o comando abaixo para que as modificações seja feitas neste branch (dev) e não no master (principal);
 ```bash
 git checkout dev
