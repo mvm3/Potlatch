@@ -22,7 +22,7 @@ import Header from "./components/pages/shared/Header.vue";
 export default {
   name: "app",
   components: {
-
+   
     Footer,
     Header
   }
