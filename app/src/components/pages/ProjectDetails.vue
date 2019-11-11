@@ -1,20 +1,24 @@
 <template>
   <b-container id="projectDetails" class="bv-example-row">
     <b-row>
-      <b-col>
-        <h1>{{projects[index].projectName}}</h1>
-      </b-col>
-    </b-row>
-    <b-row>
-      <b-col>
-        <b-img
+      <b-col class="text-center" lg="12">
+        <div class="heading">
+
+
+        </div>
+        <b-img class="projectImage"
           :src="projects[index].projectImg"
         ></b-img>
+        
+      </b-col>git
+      
+    </b-row>
+    <b-row>
+      <b-col lg="12" class="text-center">
+        <h1>{{projects[index].projectName}}</h1>
       </b-col>
-      <b-col >
-        <h4>Descrição:</h4>
-        <br />
-        <span>
+      <b-col class="text-center" >
+        <span >
           {{projects[index].projectDesc}}
         </span>
         <br />
@@ -85,6 +89,22 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.heading {
+  background-size: cover;
+  background-color: lightgray;
+  height: 30em;
+}
+.projectImage {
+  position:relative;
+  top: -8em;
+  margin-bottom: -7em;
+}
+img {
+  width: 15em;
+  height: 15em;
+  border-radius: 20%;
+  border: 0.5em solid rgb(0,0,0,0.3)
+}
 h1 {
   text-align: center;
 }
@@ -99,10 +119,7 @@ li {
 a {
   color: #42b983;
 }
-img {
-  width: 25em;
-  height: 25em;
-}
+
 span {
   text-align: left;
 }
