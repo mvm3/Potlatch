@@ -10,7 +10,7 @@
           :src="projects[index].projectImg"
         ></b-img>
         
-      </b-col>git
+      </b-col>
       
     </b-row>
     <b-row>
