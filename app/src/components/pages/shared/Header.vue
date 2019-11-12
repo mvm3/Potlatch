@@ -25,26 +25,31 @@
         <b-navbar-nav class="ml-auto">
           <b-nav-form>
             <div style="margin-right:20px">
+              <b-button size="sm" class="botao" type="submit" href = "https://drive.google.com/open?id=1Eu__OmZCIjtVQjEmNCvREDY-6BzZIAql&usp=sharing"
+                >Buscar Projeto</b-button
+              >
+            </div>
+<!--            <div style="margin-right:20px">
               <b-form-input
                 size="sm"
                 class="mr-sm-2"
                 placeholder="Buscar por localização"
               ></b-form-input>
-              <b-button size="sm" class="botao" type="submit"
+              <b-button size="sm" class="botao" type="submit" href = "https://drive.google.com/open?id=1Eu__OmZCIjtVQjEmNCvREDY-6BzZIAql&usp=sharing"
                 >Localizar</b-button
               >
             </div>
-            <div>
-              <!-- <span> Projetos </span> -->
+            <div> -->
+              <!-- <span> Projetos </span> --> <!--
               <b-form-input
                 size="sm"
                 class="mr-sm-2"
                 placeholder="Buscar por nome/tag"
               ></b-form-input>
-              <b-button size="sm" class="botao" type="submit"
+              <b-button size="sm" class="botao" type="submit" href = "https://drive.google.com/open?id=1Eu__OmZCIjtVQjEmNCvREDY-6BzZIAql&usp=sharing"
                 >Pesquisar</b-button
               >
-            </div>
+            </div> -->
           </b-nav-form>
 
           <!-- <b-nav-item-dropdown text="Lang" right>
