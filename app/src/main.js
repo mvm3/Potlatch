@@ -4,6 +4,8 @@ import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+import  './style.css' //CSS geral
+
 import router from "./router"
 
 Vue.use(BootstrapVue)
