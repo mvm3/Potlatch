@@ -1,8 +1,9 @@
 <template>
-  <div>
-    <Carrossel/>
-    <Cards/>
-  </div>
+  <div class="margem">
+     <Carrossel/>
+    <Cards/> 
+   
+      </div>
 </template>
 
 
@@ -36,6 +37,12 @@ export default {
 
 }
 </script>
+
+<style  scoped>
+.margem{
+  padding-bottom: 10%;
+}
+</style>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 
