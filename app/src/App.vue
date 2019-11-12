@@ -1,12 +1,12 @@
 <template>
 <div>
-       <div id="teste"> 
+       <div id="fixed-header"> 
        <Header />
     </div>
 
-  
+  <div class="margem">
       <router-view />
-   
+   </div>
     
       <Footer />
   
@@ -36,5 +36,21 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  
+}
+
+#fixed-header{
+  
+  position: fixed;
+    height: 100px;
+    top: 0;
+    padding-bottom: 150px;
+    width: 100%;
+} 
+
+.margem {  
+ /* verificar isso - Juliano 12 de nov */
+  margin-top: 70px;
+  display:block;
 }
 </style>
