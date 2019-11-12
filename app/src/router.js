@@ -6,6 +6,7 @@ import Router from 'vue-router'
 import Login from './components/pages/Login.vue'
 import Home from './components/pages/Home.vue'
 import ProjectDetails from './components/pages/ProjectDetails.vue'
+import Perfil from './components/pages/Perfil.vue'
 
 Vue.use(Router)
 
@@ -25,6 +26,11 @@ export default new Router({
       path: '/details/:id',
       name: 'Details',
       component: ProjectDetails
-    }    
+    },
+    {
+      path: '/perfil',
+      name: 'Perfil',
+      component: Perfil
+    }      
   ]
 })
