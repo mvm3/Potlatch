@@ -1,37 +1,53 @@
 <template>
-  <div>
-    <b-navbar toggleable="lg" type="dark" variant="info">
-      <b-navbar-brand href="#">NavBar</b-navbar-brand>
+  <div id="geral">
+    <b-navbar toggleable="lg" class="bg-primary">
+      <b-navbar-brand href="#/">          
+        <img class="logo-header" src='./../../../assets/logo.png' alt="Página Inicial">        
+        <!-- Potlatch -->
+      </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="#">Link</b-nav-item>
-          <b-nav-item href="#" disabled>Disabled</b-nav-item>
+          <b-nav-item href="#">Meus Projetos</b-nav-item>
+          <b-nav-item href="#">Gatilhos</b-nav-item>
+          <b-nav-item href="#">Minhas Doações</b-nav-item>
+          <b-nav-item href="#">Prestação de Contas</b-nav-item>
+          <!-- <b-nav-item href="#" disabled>Minhas Doações</b-nav-item> -->
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
           <b-nav-form>
-            <b-form-input size="sm" class="mr-sm-2" placeholder="Search"></b-form-input>
-            <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
+            
+            <div style="margin-right:20px">
+              <b-form-input size="sm" class="mr-sm-2" placeholder="Buscar por localização"></b-form-input>
+              <b-button size="sm" class="botao" type="submit">Localizar</b-button>            
+            </div>
+            <div>
+              <!-- <span> Projetos </span> -->
+              <b-form-input size="sm" class="mr-sm-2" placeholder="Buscar por nome/tag"></b-form-input>
+              <b-button size="sm" class="botao" type="submit">Pesquisar</b-button>
+            </div>
           </b-nav-form>
 
-          <b-nav-item-dropdown text="Lang" right>
+          <!-- <b-nav-item-dropdown text="Lang" right>
             <b-dropdown-item href="#">EN</b-dropdown-item>
             <b-dropdown-item href="#">ES</b-dropdown-item>
-            <b-dropdown-item href="#">RU</b-dropdown-item>
-            <b-dropdown-item href="#">FA</b-dropdown-item>
-          </b-nav-item-dropdown>
+          </b-nav-item-dropdown> -->
 
           <b-nav-item-dropdown right>
             <!-- Using 'button-content' slot -->
             <template v-slot:button-content>
-              <em>User</em>
+              <em>Juliano </em>
             </template>
-            <b-dropdown-item href="#">Profile</b-dropdown-item>
-            <b-dropdown-item href="#">Sign Out</b-dropdown-item>
+              <b-dropdown-item  class="popupConfiguracao " href="#">Perfil</b-dropdown-item>
+              <!-- já coloca a rota para o componente...  -->
+               <b-dropdown-item class="popupConfiguracao " href="#/login">Login</b-dropdown-item>
+                 <b-dropdown-item class="popupConfiguracao " href="#">Link3</b-dropdown-item>
+                 <div class="dropdown-divider" style="background:black"></div>
+              <b-dropdown-item class="popupConfiguracao" href="#">Sair</b-dropdown-item>
           </b-nav-item-dropdown>
         </b-navbar-nav>
       </b-collapse>
@@ -40,25 +56,80 @@
 </template>
 
 <script>
-export default {
+export default {  
   name: "Header"
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+.popupConfiguracao{
+ padding-left:22px;
+}
+
+.dropdown-item ul:hover{
+ font-weight: bold;
+ color:black;
+ font-size: 30px;
+ /* background-color: #FD463D; */
+ /* text-align: center; */
+ 
+}
+
+.botao{
+  background-color: #FD463D;
+  color:#FD463D;
+  background: #FFFFFF;
+  border-color:#FD463D;
+}
+
+
+.botao:hover{
+  background-color: #FD463D;
+  border-color:white;
+  font-weight: bold;
+}
+
+.logo-header{
+  width: 35px;
+  /* height: 50px; */
+  margin-bottom: 8px;
+}
+
+nav{
+  background-color: #FFFFFF!important;
+  font-family: 'Gotham-Light', 'Open-Sans'; 
+}
+
+a{
+  color:black!important;  
+  font-weight: bold;
+  /* font-size: 15px; */
+} 
+
+
+em {
+ /* background-color: #FD463D!important;   */
+color: gray; 
+}
+
 h3 {
   margin: 40px 0 0;
 }
 ul {
   list-style-type: none;
   padding: 0;
+  color:#FD463D!important;
 }
 li {
   display: inline-block;
   margin: 0 10px;
+  color:#FD463D!important;
 }
-a {
+/* a {
   color: #42b983;
-}
+} */
+
+
 </style>
