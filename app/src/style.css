@@ -5,4 +5,13 @@
     src: url('./assets/fonts/Gotham-Light/Gotham-Light.otf');
   }
 
+  html{
+    height: 100%;  
+    /* width: 100%; */
+  }
+
+  body{
+    min-height: 100%;
+  }
+
   /* color:#FD463D!important; cor padrao do vermelho */
