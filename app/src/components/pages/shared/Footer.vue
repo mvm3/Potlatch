@@ -78,6 +78,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    font-family: 'Gotham-Light';
+}
+
 h3 {
   margin: 40px 0 0;
 }
@@ -90,6 +100,7 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color:#FD463D;
 }
+
 </style>
