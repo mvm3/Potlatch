@@ -1,14 +1,14 @@
 <template>
-<div>
-       <div id="fixed-header"> 
+  <div class="geral"> 
+     <div id="fixed-header"> 
        <Header />
     </div>
 
-  <div class="margem">
+    <div class="dinamico">
       <router-view />
    </div>
     
-      <Footer />
+  <Footer />
   
 </div>
   
@@ -30,6 +30,10 @@ export default {
 </script>
 
 <style>
+.geral{
+overflow: hidden;
+}
+
 #app {
   
   -webkit-font-smoothing: antialiased;
@@ -42,16 +46,17 @@ export default {
 #fixed-header{
   
   position: fixed;
-    height: 100px;
+    /* height: 100%; */
     top: 0;
     /* padding-bottom: 150px; */
     width: 100%;
     z-index: 8;
 } 
 
-.margem {  
+.dinamico {  
  /* verificar isso - Juliano 12 de nov */
-  margin-top: 70px;
+  margin-top: 5.4%;
   display:block;
+  
 }
 </style>
