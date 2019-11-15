@@ -7,6 +7,7 @@ import Login from './components/pages/Login.vue'
 import Home from './components/pages/Home.vue'
 import ProjectDetails from './components/pages/ProjectDetails.vue'
 import Perfil from './components/pages/Perfil.vue'
+import Buscador from './components/pages/Buscador.vue'
 
 Vue.use(Router)
 
@@ -31,6 +32,11 @@ export default new Router({
       path: '/perfil',
       name: 'Perfil',
       component: Perfil
-    }      
+    },
+    {
+      path: '/buscador',
+      name: 'Buscador',
+      component: Buscador
+    }    
   ]
 })
