@@ -44,7 +44,7 @@ export default {
   position: fixed;
     height: 100px;
     top: 0;
-    padding-bottom: 150px;
+    /* padding-bottom: 150px; */
     width: 100%;
     z-index: 8;
 } 
