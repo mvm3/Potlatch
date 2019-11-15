@@ -1,4 +1,4 @@
-<template class ="fixar">
+<template>
   <div>
     <b-navbar toggleable="lg" class="bg-primary">
       <b-navbar-brand href="#/">
@@ -21,12 +21,14 @@
         <b-navbar-nav class="ml-auto">
           <b-nav-form>
             <div style="margin-right:20px">
-              <b-button
-                size="sm"
-                class="botao"
-                type="submit"
-                href="#/Buscador"
-              >Doar</b-button>
+                <b-button
+                  size="sm"
+                  class="botao"
+                  type="submit"
+                  href="#/Buscador"
+                >
+                  <b>Doar</b>
+              </b-button>
             </div>
             <!--            <div style="margin-right:20px">
               <b-form-input
@@ -83,6 +85,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
 .popupConfiguracao {
   padding-left: 22px;
 }
@@ -100,6 +103,7 @@ export default {
   color: #fd463d;
   background: #ffffff;
   border-color: #fd463d;
+  border: 2px solid #fd463d; 
 }
 
 .botao:hover {
@@ -118,6 +122,9 @@ export default {
 nav {
   background-color: #ffffff !important;
   font-family: "Gotham-Light", "Open-Sans";
+  border-bottom: 1px solid rgba(128,128,128, 0.2) !important;
+  /* border-bottom-right-radius: 5%;
+  border-bottom-left-radius: 5%; */
 }
 
 a {
@@ -147,4 +154,6 @@ li {
 /* a {
   color: #42b983;
 } */
+
+
 </style>
