@@ -43,7 +43,7 @@
                       <b-progress-bar variant="success" :value="project.projectValuein"></b-progress-bar>
                       <b-progress-bar variant="secondary" :value="project.projectValueDesired - project.projectValuein "></b-progress-bar>
                   </b-progress>                             
-                   <a href="">   <b-button size="lg" variant="outline-primary">Ver mais</b-button> </a>
+                    <b-button :to="/details/+project.projectId" size="lg" variant="outline-primary">Ver mais</b-button>
                 </b-col>                            
             </b-row>   
           </b-container>
