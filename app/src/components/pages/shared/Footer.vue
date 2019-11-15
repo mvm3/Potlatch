@@ -43,6 +43,7 @@
               <li>
                 <a href="#!">Link 2</a>
               </li>
+           <font-awesome-icon icon="spinner" flip="both" />
               <li>
                 <a href="#!">Link 3</a>
               </li>
@@ -80,8 +81,8 @@ export default {
 <style scoped>
 
 footer {
-    position: fixed;
-    height: 100px;
+    /* position: fixed; */
+    height: 100%;
     bottom: 0;
     width: 100%;
     background-color: white;
