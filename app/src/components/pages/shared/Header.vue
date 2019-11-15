@@ -1,12 +1,8 @@
 <template class ="fixar">
-  <div> 
+  <div>
     <b-navbar toggleable="lg" class="bg-primary">
       <b-navbar-brand href="#/">
-        <img
-          class="logo-header"
-          src="./../../../assets/logo.png"
-          alt="Página Inicial"
-        />
+        <img class="logo-header" src="./../../../assets/logo.png" alt="Página Inicial" />
         <!-- Potlatch -->
       </b-navbar-brand>
 
@@ -25,11 +21,14 @@
         <b-navbar-nav class="ml-auto">
           <b-nav-form>
             <div style="margin-right:20px">
-              <b-button size="sm" class="botao" type="submit" href = "https://drive.google.com/open?id=1Eu__OmZCIjtVQjEmNCvREDY-6BzZIAql&usp=sharing"
-                >Buscar Projeto</b-button
-              >
+              <b-button
+                size="sm"
+                class="botao"
+                type="submit"
+                href="#/Buscador"
+              >Doar</b-button>
             </div>
-<!--            <div style="margin-right:20px">
+            <!--            <div style="margin-right:20px">
               <b-form-input
                 size="sm"
                 class="mr-sm-2"
@@ -39,8 +38,9 @@
                 >Localizar</b-button
               >
             </div>
-            <div> -->
-              <!-- <span> Projetos </span> --> <!--
+            <div>-->
+            <!-- <span> Projetos </span> -->
+            <!--
               <b-form-input
                 size="sm"
                 class="mr-sm-2"
@@ -49,33 +49,25 @@
               <b-button size="sm" class="botao" type="submit" href = "https://drive.google.com/open?id=1Eu__OmZCIjtVQjEmNCvREDY-6BzZIAql&usp=sharing"
                 >Pesquisar</b-button
               >
-            </div> -->
+            </div>-->
           </b-nav-form>
 
           <!-- <b-nav-item-dropdown text="Lang" right>
             <b-dropdown-item href="#">EN</b-dropdown-item>
             <b-dropdown-item href="#">ES</b-dropdown-item>
-          </b-nav-item-dropdown> -->
+          </b-nav-item-dropdown>-->
 
           <b-nav-item-dropdown right>
             <!-- Using 'button-content' slot -->
             <template v-slot:button-content>
-              <em>Juliano </em>
+              <em>Juliano</em>
             </template>
-            <b-dropdown-item class="popupConfiguracao " href="#/perfil"
-              >Perfil</b-dropdown-item
-            >
+            <b-dropdown-item class="popupConfiguracao" href="#/perfil">Perfil</b-dropdown-item>
             <!-- já coloca a rota para o componente...  -->
-            <b-dropdown-item class="popupConfiguracao " href="#/login"
-              >Login</b-dropdown-item
-            >
-            <b-dropdown-item class="popupConfiguracao " href="#"
-              >Link3</b-dropdown-item
-            >
+            <b-dropdown-item class="popupConfiguracao" href="#/login">Login</b-dropdown-item>
+            <b-dropdown-item class="popupConfiguracao" href="#">Link3</b-dropdown-item>
             <div class="dropdown-divider" style="background:black"></div>
-            <b-dropdown-item class="popupConfiguracao" href="#"
-              >Sair</b-dropdown-item
-            >
+            <b-dropdown-item class="popupConfiguracao" href="#">Sair</b-dropdown-item>
           </b-nav-item-dropdown>
         </b-navbar-nav>
       </b-collapse>
@@ -87,20 +79,13 @@
 export default {
   name: "Header"
 };
-
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
-
-
-
-
 .popupConfiguracao {
   padding-left: 22px;
 }
-
 
 .dropdown-item ul:hover {
   font-weight: bold;
@@ -121,6 +106,7 @@ export default {
   background-color: #fd463d;
   border-color: white;
   font-weight: bold;
+  color: #ffffff!important;
 }
 
 .logo-header {
@@ -132,7 +118,6 @@ export default {
 nav {
   background-color: #ffffff !important;
   font-family: "Gotham-Light", "Open-Sans";
-  
 }
 
 a {
