@@ -1,5 +1,5 @@
 <template>
-  <div class="margem">
+  <div class="rotasDinamicas">
      <Carrossel/>
     <Cards/> 
    
@@ -39,8 +39,10 @@ export default {
 </script>
 
 <style  scoped>
-.margem{
+.rotasDinamicas{
+  display: block;
   padding-bottom: 10%;
+  
 }
 </style>
 

@@ -1,5 +1,7 @@
 <template>
+
   <div class="footer">
+    
     <footer class="page-footer font-small blue pt-4">
       <div class="container-fluid text-center text-md-left">
         <!-- Grid row -->
@@ -59,8 +61,8 @@
       <!-- Footer Links -->
       <!-- Copyright -->
       <div class="footer-copyright text-center py-3">
-        © 2018 Copyright:
-        <a href="https://mdbootstrap.com/education/bootstrap/">MDBootstrap.com</a>
+        © 2019 Copyright:
+        <a href="#">Potlatch</a>
       </div>
       <!-- Copyright -->
     </footer>
@@ -81,12 +83,16 @@ export default {
 <style scoped>
 
 footer {
-    /* position: fixed; */
-    height: 100%;
+    position: fixed;
+    height: auto;
     bottom: 0;
+    right: 0;
+    left: 0;
     width: 100%;
+    clear: both;
     background-color: white;
     font-family: 'Gotham-Light';
+    border-top: 1px solid rgba(128,128,128, 0.2) !important;
 }
 
 h3 {

@@ -58,14 +58,16 @@ font-family: 'Gotham-Light';
 
 .dinamico {  
  /* verificar isso - Juliano 12 de nov */
-  margin-top: 5%;
+  margin-top: 6%;
   display:block;
   position:relative;
-  
+
 }
 
 .rodape{
 /* margin-top: 10%; */
 /* position: absolute; */
+  /* display:block; */
+   /* z-index:initial; */
 }
 </style>
