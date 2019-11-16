@@ -8,7 +8,9 @@
       <router-view />
    </div>
     
-  <Footer />
+  <div  class="rodape">
+    <Footer />
+  </div>
   
 </div>
   
@@ -32,10 +34,11 @@ export default {
 <style>
 .geral{
 overflow: hidden;
+font-family: 'Gotham-Light';
 }
 
 #app {
-  
+ 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -55,8 +58,14 @@ overflow: hidden;
 
 .dinamico {  
  /* verificar isso - Juliano 12 de nov */
-  margin-top: 5.4%;
+  margin-top: 5%;
   display:block;
+  position:relative;
   
+}
+
+.rodape{
+/* margin-top: 10%; */
+/* position: absolute; */
 }
 </style>
