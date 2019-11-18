@@ -120,7 +120,8 @@ export default {
 }
 
 nav {
-  background-color: #ffffff !important;
+  
+  background-color: rgba(255, 255, 255, 0.6) !important;
   font-family: "Gotham-Light", "Open-Sans";
   border-bottom: 1px solid rgba(128,128,128, 0.2) !important;
   /* border-bottom-right-radius: 5%;
