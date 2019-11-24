@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Gris",
+        "subject": "educação", 
+        "profilePhotoId": "https://bit.ly/2WQ2eFo",
+        "address":{
+            "street": "R. Diogo Barbosa Machado",
+            "number": "15",
+            "city": "Recife",
+            "state": "Pernambuco", 
+            "complement": "A", 
+            "cep": "50810-290",
+            "geo": {
+                "lat": "-8.042736,",
+                "lng": "-34.960012"
+            }       
+        },
+        "bankData": {
+            "cc": "123123", 
+            "number": "111111", 
+            "name": "Joice", 
+            "cpfCnpj": "000.000.000-09" 
+        },
+        "description":" O Projeto Gris atende famílias em situação de vulnerabilidade socioeconômica, através de um conjunto de atividades de apoio psicossociais no bairro da Várzea"
+    },
+    {
+        "id": 2,
+        "name": "Escambo Coletivo",
+        "subject": "educação", 
+        "profilePhotoId": "https://bit.ly/2Csm1Br",
+        "address":{
+            "street": "Av. Lindolfo Collor",
+            "number": "15",
+            "city": "Paulista",
+            "state": "Pernambuco", 
+            "complement": "A", 
+            "cep": "53417-041",
+            "geo": {
+                "lat": "-7.939751",
+                "lng": "-34.890003"
+            }           
+        },
+        "bankData": {
+            "cc": "123123", 
+            "number": "111111", 
+            "name": "Luan", 
+            "cpfCnpj": "000.000.000-09" 
+        },
+        "description": "O Escambo quer a utilização coletiva de espaços públicos, comunitários e de cultura e lazer pra estimular a ideia de ocupar um espaço que é nosso por direito."
+    },
+    {
+        "id": 3,
+        "name": "Tigres de Aço",
+        "subject": "Esporte", 
+        "profilePhotoId": "https://bit.ly/2CcOMlr",
+        "address":{
+            "street": "R. Frutuoso de Barros",
+            "number": "31",
+            "city": "Recife",
+            "state": "Pernambuco", 
+            "complement": "A", 
+            "cep": "50760-470" ,
+            "geo": {
+                "lat": "-8.073820",
+                "lng": "-34.922036"
+            }           
+        },
+        "bankData": {
+            "cc": "123123", 
+            "number": "111111", 
+            "name": "Marcos", 
+            "cpfCnpj": "103.210.374-09" 
+        },
+        "description":"Temos como objetivo mudar a vida das crianças e jovens da comunidade. Através o karatê e do judô, mostrando que com disciplina, treinamento e foco, serão capazes de alcançar seus maiores sonhos."
+    },
+    {
+        "id": 4,
+        "name": " Rádio Aconchego",
+        "subject": "Comunicação", 
+        "profilePhotoId": "https://bit.ly/2NKBDFj",
+        "address":{
+            "street": "R. Lindolfo Color",
+            "number": "65",
+            "city": "Recife",
+            "state": "Pernambuco", 
+            "complement": "A", 
+            "cep": "50730-600",
+            "geo": {
+                "lat": "-8.052850",
+                "lng": "-34.939914"
+            }                 
+        },
+        "bankData": {
+            "cc": "123123", 
+            "number": "111111", 
+            "name": "Fernando", 
+            "cpfCnpj": "103.210.374-09" 
+        },
+        "description":"Nosso objetivo é construir um meio de comunicação em que possamos falar e nos escutar em nossas comunidades, compartilhando tanto anseios, quanto experiências positivas"
+    }
+]

@@ -1,0 +1,88 @@
+[
+    {
+      "id": 1,
+      "name": "Nina Simone",
+      "username": "nsne",
+      "email": "nsn3@gmail.com",
+      "address": {
+        "street": "R. poloni",
+        "suite": "Apt. 556",
+        "city": "Recife",
+        "zipcode": "50740-340",
+        "geo": {
+          "lat": "-8.043600",
+          "lng": "-34.951586"
+        }
+      },
+      "phone": "(81) 9 00001111"
+    },
+    {
+        "id": 2,
+        "name": "Riley Ben King",
+        "username": "rbkg",
+        "email": "rbkg@gmail.com",
+        "address": {
+          "street": "Av. Lindolfo Collor ",
+          "suite": "Apt. 556",
+          "city": "Paulista",
+          "zipcode": "2342-2412",
+          "geo": {
+            "lat": "-7.933966",
+            "lng": "-34.898857"
+          }
+        },
+        "phone": "(81) 9 00002222"
+    },
+      
+    {
+      "id": 3,
+      "name": "Ray Charles Robinson",
+      "username": "rcbs",
+      "email": "rcbs@gmail.com",
+      "address": {
+        "street": "R.Antônio Curado",
+        "suite": "Apt. 692",
+        "city": "Recife",
+        "zipcode": "50730-180",
+        "geo": {
+          "lat": "-8.054967",
+          "lng": "-34.941717"
+        }
+      },
+      "phone": "(81) 9 11112222"
+    },
+    {
+      "id": 4,
+      "name": "Thaynara Ramos",
+      "username": "tyrm",
+      "email": "tyrm@gmail.com",
+      "address": {
+        "street": "R. Maria Jaboatão",
+        "suite": "20",
+        "city": "Recife",
+        "zipcode": "50740-360",
+        "geo": {
+          "lat": "-8.043211",
+          "lng": "-34.950217"
+        }
+      },
+      "phone": "(81) 9 99541289"
+    },
+    {
+      "id": 5,
+      "name": "Monalisa Da Vinci",
+      "username": "mldvc",
+      "email": "mldvc@gmail.com",
+      "address": {
+        "street": "R. João Cardoso Aires",
+        "suite": "Apt. 950",
+        "city": "Recife",
+        "zipcode": "51130-300",
+        "geo": {
+          "lat": "-8.141463",
+          "lng": "-34.910417"
+        }
+      },
+      "phone": "(81) 9 98760312"
+    }
+  ]
