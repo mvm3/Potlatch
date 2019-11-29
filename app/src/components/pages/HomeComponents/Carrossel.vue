@@ -1,5 +1,5 @@
 <template>
- <div id = "carrossel">  
+ <div id ="carrossel" class="t">  
       <b-carousel
         id="carousel-1"
         v-model="slide"
@@ -15,18 +15,20 @@
       >
         <!-- Text slides with image -->
         <b-carousel-slide
-          caption="First slide"
-          text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-          img-src="https://picsum.photos/1024/480/?image=52"
-        ></b-carousel-slide>
+          caption="Potlatch"
+          text="DAR - RECEBER - RETRIBUIR"
+          img-src="https://kinsta.com/wp-content/uploads/2018/05/stripe-donate-button-1-1.png">
+          <!-- <h2>deus salve o rei</h2>
+          <p>DAR - RECEBER - RETRIBUIR</p> -->
+          </b-carousel-slide>
+
 
         <!-- Slides with custom text -->
-        <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=54">
-          <h1>Hello world!</h1>
+        <b-carousel-slide img-src="https://radhakrishnatemple.net/wp-content/uploads/2018/01/o-GIVING-facebook.jpg">
+         
         </b-carousel-slide>
 
-        <!-- Slides with image only -->
-        <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=58"></b-carousel-slide>
+        
 
         <!-- Slides with img slot -->
         <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
@@ -36,23 +38,25 @@
               class="d-block img-fluid w-100"
               width="1024"
               height="480"
-              src="https://picsum.photos/1024/480/?image=55"
+              src= "https://thebetterparent.com/blog/wp-content/uploads/2018/12/google-play-donate-logo.jpg"
               alt="image slot"
             >
           </template>
         </b-carousel-slide>
 
         <!-- Slide with blank fluid image to maintain slide aspect ratio -->
-        <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
-            a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.
-          </p>
-        </b-carousel-slide>
       </b-carousel>
       
     </div>
 </template>
 
-<style scoped>
+<style>
+
+
+.t .carousel-caption {
+  color: black !important; 
+}
+
+
+
 </style>

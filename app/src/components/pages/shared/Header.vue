@@ -101,7 +101,7 @@ export default {
 .botao {
   background-color: #fd463d;
   color: #fd463d;
-  background: #ffffff;
+  background: #fd463d;
   border-color: #fd463d;
   border: 2px solid #fd463d; 
 }
@@ -123,7 +123,7 @@ nav {
   
   background-color: rgba(255, 255, 255, 0.6) !important;
   font-family: "Gotham-Light", "Open-Sans";
-  border-bottom: 1px solid rgba(128,128,128, 0.2) !important;
+  border-bottom: 1px solid rgba(128,128,128, 0.5) !important;
   /* border-bottom-right-radius: 5%;
   border-bottom-left-radius: 5%; */
 }
