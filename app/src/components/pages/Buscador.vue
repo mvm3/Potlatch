@@ -1,6 +1,5 @@
 <template>
   <div class="geral">
-
     <b-form inline>
       <label class="sr-only" for="inline-form-input-name">Name</label>
       <b-input
@@ -23,6 +22,7 @@
       <label for="tematica">Temática</label>
       <br />
     </b-form>
+    
   </div>
 </template>
 
