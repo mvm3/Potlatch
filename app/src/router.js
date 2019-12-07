@@ -9,6 +9,7 @@ import ProjectDetails from './components/pages/ProjectDetails.vue'
 import Perfil from './components/pages/Perfil.vue'
 import Descubra from './components/pages/Descubra.vue'
 import Buscador from './components/pages/Buscador.vue'
+import Resultados from './components/pages/Resultados.vue'
 
 Vue.use(Router)
 
@@ -43,6 +44,11 @@ export default new Router({
       path: '/descubra',
       name: 'Descubra',
       component: Descubra
-    }       
+    },
+    {
+      path: '/resultados',
+      name: 'Resultados',
+      component: Resultados
+    }
   ]
 })

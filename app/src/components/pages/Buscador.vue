@@ -7,6 +7,7 @@
         id="inline-form-input-name"
         class="buscador mb-2 mr-sm-2 mb-sm-0"
         placeholder="Digite aqui"
+        value=""
       ></b-input>
 
       <b-button variant="secondary" style="margin-left:2%">Pesquisar</b-button>
@@ -15,11 +16,11 @@
       <input type="radio" id="nome" value="localizacao" name="grupo" />
       <label for="localizacao">Nome/Título</label>
       <br />
-      <input type="radio" id="local" value="localizacao" name="grupo" />
-      <label for="localizacao">Localização</label>
+      <!-- <input type="radio" id="local" value="localizacao" name="grupo" />
+      <label for="localizacao">Localização</label> -->
       <br />
       <input type="radio" id="tematica" value="tematica" name="grupo" />
-      <label for="tematica">Causa/Temática/Tag</label>
+      <label for="tematica">Temática</label>
       <br />
     </b-form>
   </div>
