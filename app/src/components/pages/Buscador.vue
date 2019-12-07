@@ -9,7 +9,7 @@
         value=""
       ></b-input>
 
-      <b-button variant="secondary" style="margin-left:2%">Pesquisar</b-button>
+      <b-button variant="secondary" style="margin-left:2%" href="#/Resultados" >Pesquisar</b-button>
     </b-form>
     <b-form inline>
       <input type="radio" id="nome" value="localizacao" name="grupo" />
