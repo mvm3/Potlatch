@@ -10,6 +10,7 @@ import Perfil from './components/pages/Perfil.vue'
 import Descubra from './components/pages/Descubra.vue'
 import Buscador from './components/pages/Buscador.vue'
 import Pagamento from './components/pages/Pagamento.vue'
+import Resultados from './components/pages/Resultados.vue'
 
 Vue.use(Router)
 
@@ -49,6 +50,11 @@ export default new Router({
       path: '/pagamento',
       name: 'Pagamento',
       component: Pagamento
-    }          
+    },          
+    {
+      path: '/resultados',
+      name: 'Resultados',
+      component: Resultados
+    }
   ]
 })
