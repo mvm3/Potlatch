@@ -14,6 +14,7 @@
           <b-nav-item href="#">Gatilhos</b-nav-item>
           <b-nav-item href="#">Minhas Doações</b-nav-item>
           <b-nav-item href="#">Prestação de Contas</b-nav-item>
+           <b-nav-item href="#/descubra">Descubra</b-nav-item>
           <!-- <b-nav-item href="#" disabled>Minhas Doações</b-nav-item> -->
         </b-navbar-nav>
 

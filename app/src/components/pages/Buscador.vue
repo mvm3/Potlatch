@@ -1,7 +1,5 @@
 <template>
   <div class="geral">
-    <!--  href="https://drive.google.com/open?id=1Eu__OmZCIjtVQjEmNCvREDY-6BzZIAql&usp=sharing" -->
-    <!-- Buscador colocar esse link dentro de um componenet para ver a localizacao -->
 
     <b-form inline>
       <label class="sr-only" for="inline-form-input-name">Name</label>
